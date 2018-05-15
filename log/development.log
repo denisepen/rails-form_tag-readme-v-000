@@ -282,3 +282,7 @@ Completed 302 Found in 21ms (ActiveRecord: 4.2ms)
 
 
 Started GET "/posts" for 24.186.246.85 at 2018-05-15 16:33:40 +0000
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 19ms (Views: 16.8ms | ActiveRecord: 0.3ms)
